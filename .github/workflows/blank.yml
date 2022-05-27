@@ -30,7 +30,7 @@ jobs:
 
       # 
       - name: first commit
-        run: sed -i '$ d' -
+        run: date >> -
 
       # 
       - name: second commit
